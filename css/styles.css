@@ -72,11 +72,11 @@ body{
     color: #434455;
 }
 
-.employees-item:hover{
+.contacts-item:hover{
     color: #404bbf;
 }
 
-.employees-item:focus{
+.contacts-item:focus{
     color: #404bbf;
 }
 
@@ -205,6 +205,7 @@ body{
     text-align: center;
     margin: 0 0 72px;
     text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .portfolio-list{
