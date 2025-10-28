@@ -273,3 +273,7 @@ body{
     color: var(--cloud);
     margin: 16px 0 0;
 }
+
+.logo-studio-footer{
+    color: var(--cloud);
+}
