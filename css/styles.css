@@ -6,15 +6,10 @@ body{
 }
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 156px;
     margin: 0 auto;
 }
 
 .nav{
-    display: flex;
     column-gap: 76px;
 }
 
@@ -36,11 +31,9 @@ body{
 }
 
 .nav-list{
-    display: flex;
     column-gap: 40px;
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
 .nav-item{
@@ -65,11 +58,9 @@ body{
 }
 
 .contacts-list{
-    display: flex;
     column-gap: 40px;
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
 .contacts-item{
@@ -90,13 +81,7 @@ body{
 }
 
 .main-intro{
-    height: 600px;
-    width: 100%;
     background-color: #2E2F42;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .main-intro-title{
@@ -106,16 +91,12 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    width: 496px;
     margin: 0 0 48px;
 }
 
 .main-intro--button{
-    border-radius: 4px;
-    padding: 16px 32px;
     background: #4D5AE5;
     cursor: pointer;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -132,17 +113,12 @@ body{
 }
 
 .main-values{
-    width: 1128px; 
     margin: 0 auto;
-    padding: 120px 0;
 }
 
 .values-list{
-    display: flex;
-    column-gap: 24px;
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
 .values-title{
@@ -162,7 +138,7 @@ body{
     margin: 0;
 }
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -173,12 +149,11 @@ body{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 .main-employees{
     background-color: #F4F4FD;
     margin: 0 auto;
-    padding: 120px 156px;
 }
 
 .employees-title{
@@ -208,29 +183,19 @@ body{
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--slate);
     margin: 0;
 }
 
 .employees-list{
-    display: flex;
-    column-gap: 24px;
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
 .employees-item{
     text-align: center;
     background: #FFFFFF;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
 }
 
-.our-portfolio{
-    padding: 120px 156px;
-    
-}
 
 .portfolio-title{
     font-weight: 700;
@@ -244,13 +209,7 @@ body{
 
 .portfolio-list{
     list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    column-gap: 24px;
-    row-gap: 48px;
     margin: 0;
-    padding: 0;
 }
 
 .portfolio-name{
@@ -271,11 +230,9 @@ body{
 
 .footer{
     background-color: #2e2f42;;
-    padding: 100px 156px;
 }
 
 .footer-descr{
-    width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
