@@ -9,10 +9,6 @@ body{
     margin: 0 auto;
 }
 
-.nav{
-    column-gap: 76px;
-}
-
 .logo{
     text-decoration: none;
     font-family: Raleway, sans-serif;
@@ -31,7 +27,6 @@ body{
 }
 
 .nav-list{
-    column-gap: 40px;
     list-style-type: none;
     margin: 0;
 }
@@ -58,7 +53,6 @@ body{
 }
 
 .contacts-list{
-    column-gap: 40px;
     list-style-type: none;
     margin: 0;
 }
