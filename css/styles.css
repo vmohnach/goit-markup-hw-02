@@ -1,26 +1,8 @@
-:root{
-  --iris: #4D5AE5;
-  --navy-blue: #2E2F42;
-  --green: #31D0AA;
-  --slate: #434455;
-  --light-slate: #8E8F99;
-  --cornflower: #E7E9FC;
-  --cloud: #F4F4FD;
-  --navy-blue-modal: #2E2F42;
-  --grey: #2E2F42;
-  --white: #FFFFFF;
-  --dairy: #FCFCFC;
-}
-
-:root {
-  --font-family: Roboto , sans-serif;
-  --second-family: Raleway , sans-serif;
-}
-
 body{
     margin: 0;
-    font-family: var(--font-family);
-    color: var(--navy-blue);
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .header{
@@ -38,21 +20,19 @@ body{
 
 .logo{
     text-decoration: none;
-    font-family: var(--second-family);
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
 
 }
 
-.logo-web{
-    color: var(--iris);
-}
 
 .logo-studio{
-    color: var(--navy-blue);
+    color: #2E2F42;
 }
 
 .nav-list{
@@ -69,7 +49,19 @@ body{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2E2F42;
+}
+
+.nav-item:hover{
+    color: #404bbf;
+}
+
+.nav-item:focus{
+    color: #404bbf;
+}
+
+.contacts{
+    font-style: normal;
 }
 
 .contacts-list{
@@ -86,14 +78,21 @@ body{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
-    font-style: normal;
+    color: #434455;
+}
+
+.employees-item:hover{
+    color: #404bbf;
+}
+
+.employees-item:focus{
+    color: #404bbf;
 }
 
 .main-intro{
     height: 600px;
     width: 100%;
-    background-color: var(--navy-blue);
+    background-color: #2E2F42;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +105,7 @@ body{
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white);
+    color: #FFFFFF;
     width: 496px;
     margin: 0 0 48px;
 }
@@ -114,14 +113,22 @@ body{
 .main-intro--button{
     border-radius: 4px;
     padding: 16px 32px;
-    background: var(--iris);
+    background: #4D5AE5;
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    color: var(--white);
+    color: #FFFFFF;
+}
+
+.main-intro--button:hover{
+    background-color: #404BBF
+}
+
+.main-intro--button:focus{
+    background-color: #404BBF
 }
 
 .main-values{
@@ -144,6 +151,7 @@ body{
     line-height: 120%;
     letter-spacing: 0.02em;
     margin: 0 0 8px;
+    color: #2e2f42;
 }
 
 .values-descr{
@@ -151,7 +159,6 @@ body{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
     margin: 0;
 }
 
@@ -169,7 +176,7 @@ body{
 }
 
 .main-employees{
-    background-color: var(--cornflower);
+    background-color: #F4F4FD;
     margin: 0 auto;
     padding: 120px 156px;
 }
@@ -181,6 +188,8 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     margin: 0 0 72px;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .employees-name{
@@ -190,6 +199,7 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     margin: 32px 0 8px;
+    color: #2e2f42;
 }
 
 .employees-role{
@@ -212,7 +222,7 @@ body{
 
 .employees-item{
     text-align: center;
-    background: var(--white);
+    background: #FFFFFF;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px;
 }
@@ -229,6 +239,7 @@ body{
     letter-spacing: 0.02em;
     text-align: center;
     margin: 0 0 72px;
+    text-transform: capitalize;
 }
 
 .portfolio-list{
@@ -238,7 +249,6 @@ body{
     grid-template-rows: repeat(2, 1fr);
     column-gap: 24px;
     row-gap: 48px;
-    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -249,6 +259,7 @@ body{
     line-height: 120%;
     letter-spacing: 0.02em;
     margin: 32px 0 8px;
+    color: #2e2f42;;
 }
 
 .portfolio-category{
@@ -256,11 +267,10 @@ body{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
 }
 
 .footer{
-    background-color: var(--navy-blue);
+    background-color: #2e2f42;;
     padding: 100px 156px;
 }
 
@@ -270,10 +280,10 @@ body{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: #f4f4fd;
     margin: 16px 0 0;
 }
 
 .logo-studio-footer{
-    color: var(--cloud);
+    color: #f4f4fd;
 }
